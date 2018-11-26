@@ -1,6 +1,6 @@
 FROM node:8.9.4
 # Needed for running yarn build
-ARG API_URLi=http://localhost:7500
+ARG API_URLi=http://142.93.171.238:7500
 ENV API_URL=$API_URL
 
 WORKDIR /reactapp
